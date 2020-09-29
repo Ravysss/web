@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-transform: uppercase;
+	font-style:normal;
+}
+div{
+    display: block;
+}
+.banner{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(0deg, #3B363C, #3B363C), url(img/modbanner.jpg) 0 0 no-repeat;
+    background-position: center;
+    background-blend-mode: normal, screen, normal;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 470px;
+    width: auto;
+}
+.container{
+    position: relative;
+    margin:0 auto;
+}
+.banner .container {	
+    text-align: left;
+}
+.con{
+    padding: 284 0 0 11vw;
+}
+.bread {
+    padding-left:11vw;
+    padding-top: 1vw;
+}
+a{
+    margin-right: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.active{
+    color:#A9ABAA;
+}
+.square{
+    margin: 0 9 3 0;
+    width: 3px;
+    height: 3px;
+    background: #F5CC00;
+}
+div .square{
+    display:inline-block;
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+	margin-top: 88px;
+	width:85vw;
+	
+}
+.leftPart{
+	min-width:750px;
+	margin-left: 5%;
+    text-align:left;
+    box-sizing:border-box;
+    color:#000000;
+}
+h1{
+	margin-left:6px;
+	padding-top:20px;
+	position: relative;
+    margin-block-start: 0;
+    margin-block-end: 30px;
+    font-size: 60px;
+    font-weight: 900;
+}
+.leftBorder{
+	position: absolute;
+    margin-left: 90px;
+	width: 319px;
+    height: 187px;
+    border: 15px solid rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+}
+div ul{
+	padding-top: 33px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+
+}
+.adress{
+    font-weight: 900;
+}
+.rightPart{
+	margin-right: auto;
+	margin-left:auto;
+    position:relative;
+    margin-top: 93px;		
+    color:#000000;
+}
+.rightContent{
+	width:43vw;
+	height:29vw;
+
+}
+.border{
+	position:absolute;
+	margin-top:50px;
+	width:93%;
+	height:87%;
+	border:15px solid rgba(0, 0, 0, 0.1); 
+	z-index:1;
+}
+.img{
+	position:relative;
+	margin-left:7%;
+	width:93%;
+	height:87%;
+	border: 4px solid #F5CC00;
+	z-index:2;	
+}
+.map{
+	margin-top:120px;
+}
+.crumbs{
+	margin-top:2vw;
+
+}
+@media screen and (max-width: 1640px) {
+    .content{
+        flex-direction:colomn;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1480px){
+	.rightContent{
+		width:64vw;
+		height:43vw;
+	}
+	div ul{
+		margin-left:-5%;
+	}
+	h1{
+		padding-top:5px;
+	}
+	.border{
+		width:87%;
+	}
+}
+@media screen and (max-width: 500px){
+		.bread{
+			font-size:2em;			
+		}
+}

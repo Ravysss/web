@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #6f6f6f;
+	font-style:normal;
+}
+.banner{
+	color:#f6f6f6;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(0deg, #3B363C, #3B363C), url(img/papperbanner.jpg) 0 0 no-repeat;
+    background-position: center;
+    background-blend-mode: normal, screen, normal;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 470px;
+    width: auto;
+}
+.container{
+	
+    position: relative;
+}
+.banner .container {	
+    text-align: left;
+}
+.bantext{
+	
+    text-transform: uppercase;
+	padding-top:284px;
+	padding-left:13vw;
+}
+.con{
+	margin:0 0 0 0;
+	font-size: 60px;
+	font-weight:900;
+	color:#FFFFFF;
+}
+.bread {
+    padding-top: 3vw;
+}
+a{
+	color:#f6f6f6;
+    margin-right: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active{
+    color:#A9ABAA;
+}
+.square{
+    margin: 0 9 3 0;
+    width: 3px;
+    height: 3px;
+    background: #F5CC00;
+}
+div .square{
+    display:inline-block;
+}
+.filter{
+	width:93vw;
+	margin-top:2.5vw;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+}
+.popular{
+	margin-right:4vw;
+}
+.date{
+	margin-right:4vw;
+}
+.calendar{
+	margin-top:-0.5vw;
+	width:204px;
+	height:2vw;
+	border:1px solid #F5CC00;
+}
+
+.news{
+	margin-left:auto;
+	margin-right:auto;
+	color: #000000;
+	width:94vw;
+	margin-top:2vw;
+	text-align:justify;
+}
+.imgN{
+	float:left;
+	margin-right:2vw;
+	height:306px;
+	width:438px;
+	filter: drop-shadow(0px 0px 1px #000000);
+	border: 5px solid #FFFFFF;
+}
+.date{
+
+}
+.dateText{
+	font-size: 14px;
+	font-weight: 500;
+	padding-top:1.5vw;
+}
+h2{
+	margin:0.5vw 0 2vw 0;
+}
+.textNews{
+	margin-right:2vw;
+}
+.author{
+	display:flex;
+	margin-top:1.5vw;
+	font-size: 16px;
+
+}
+.more{
+
+	text-align:right;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration-line: underline;
+}
+.line{
+	margin-top:1.5vw;
+	margin-bottom:2vw;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #000000;
+}
+.pages{
+}

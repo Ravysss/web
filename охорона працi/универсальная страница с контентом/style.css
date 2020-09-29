@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: #6f6f6f;
+	font-style:normal;
+}
+div{
+    display: block;
+}
+.banner{
+	color:#f6f6f6;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(0deg, #3B363C, #3B363C), url(img/univbanner.jpg) 0 0 no-repeat;
+    background-position: center;
+    background-blend-mode: normal, screen, normal;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 470px;
+    width: auto;
+}
+.container{
+	
+    position: relative;
+}
+.banner .container {	
+    text-align: left;
+}
+.bantext{
+	
+    text-transform: uppercase;
+	padding-top:225px;
+	padding-left:13vw;
+}
+.author{
+	font-weight:500;
+	display:flex;
+}
+.imgform{
+	height:50px;
+	width:50px;
+}
+.authorimg{
+	object-fit: cover;
+	height: 100%;
+    width: 100%;
+	border-radius:25px;
+}
+.Atext{
+	margin-left:5px;
+	margin-top:15px;
+}
+.con{
+	margin:0 0 0 0;
+	font-size: 60px;
+	font-weight:900;
+	color:#FFFFFF;
+}
+.PubDate{
+	margin-bottom:1vw;
+	font-size:13px;
+}
+
+.bread {
+    padding-top: 1vw;
+}
+a{
+	color:#f6f6f6;
+    margin-right: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active{
+    color:#A9ABAA;
+}
+.square{
+    margin: 0 9 3 0;
+    width: 3px;
+    height: 3px;
+    background: #F5CC00;
+}
+div .square{
+    display:inline-block;
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width:75vw;
+	
+}
+.mainPar{	
+	margin-left:4vw;
+	text-align:justify;
+}
+.After{
+	font-size:18px;
+	margin-bottom:50px;
+}
+.context{	
+	width:38wv;	
+	margin-bottom:50px;
+}
+.imgAfter{	
+	font-size:18px;
+}
+.quote{
+	position:relative;
+	margin-top:50px;
+	width:75vw;
+	height:auto;
+}
+.textquote{
+	padding-top:3vw;
+	padding-bottom:3vw;
+	margin-left:4.5vw;
+	position:relative;
+	font-size:24px;
+	text-align:justify;
+	z-index:2;
+}
+.border{
+	position:absolute;
+	width:15%;
+	height:100%;
+	border:15px solid rgba(0, 0, 0, 0.1); 
+	z-index:1;
+}
+.subtitle{
+	margin-left:4vw;
+	padding-top:3vw;
+	text-align:justify;
+}
+.subtitle h1{
+	color:#000000;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.line{
+	margin-bottom:2vw;
+	width: 85px;
+	border: 1px solid #F5CC00;
+}
+.lineB{	
+	position:absolute;
+	width: 0;
+		height: 100%;
+	border: 1px solid #F5CC00;
+	box-sizing: border-box;
+}
+
+.mainBott{
+	position:relative;
+	height:auto;
+}
+.list{
+	margin-left:4vw;
+}
+li{
+	padding-bottom:1vw;
+	color:#f5cc00;
+}
+li span{
+	color:#6f6f6f;
+}
+.bottomText{
+	font-size:18px;
+	margin-left:4vw;
+}
+.bottomTextem{
+	width: 70vw;
+	position:relative;
+	text-align:justify;
+	margin-top:2vw;
+	margin-left:1vw;
+	color:#000000;
+}
+.authograph{
+	margin-bottom:4vw;
+	color:#000000;
+	margin-top:1vw;
+	margin-left:45vw;
+}
+@media screen and (max-width: 1640px) {
+
+}
+
+@media screen and (max-width: 1480px){
+
+
+}
+@media screen and (max-width: 500px){
+
+}
